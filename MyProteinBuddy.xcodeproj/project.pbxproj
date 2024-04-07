@@ -7,23 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		285EABBBA2A6A3ABC19F12D4 /* Pods_MyProteinBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCDF3800833BE2205C28E3E /* Pods_MyProteinBuddy.framework */; };
+		5815B2E22A817D0600FD0099 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5815B2E12A817D0600FD0099 /* ResultViewController.swift */; };
+		582DFE232A5AFAC300203FF1 /* LogOutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582DFE212A5AFAC300203FF1 /* LogOutCell.swift */; };
+		582DFE242A5AFAC300203FF1 /* LogOutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582DFE222A5AFAC300203FF1 /* LogOutCell.xib */; };
+		582DFE282A5B350A00203FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582DFE272A5B350A00203FF1 /* LaunchScreen.storyboard */; };
+		5830D49B2A7327EF00D25207 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830D49A2A7327EF00D25207 /* ChartData.swift */; };
+		5830D49F2A73421A00D25207 /* BarChartUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830D49E2A73421A00D25207 /* BarChartUI.swift */; };
+		583E80C82A6B1CFA0078A737 /* SelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583E80C72A6B1CFA0078A737 /* SelectorViewController.swift */; };
 		585C6FD82A4F43370091EFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FD72A4F43370091EFC2 /* AppDelegate.swift */; };
 		585C6FDA2A4F43370091EFC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FD92A4F43370091EFC2 /* SceneDelegate.swift */; };
-		585C6FDC2A4F43370091EFC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FDB2A4F43370091EFC2 /* ViewController.swift */; };
-		585C6FDF2A4F43370091EFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585C6FDD2A4F43370091EFC2 /* Main.storyboard */; };
+		585C6FDC2A4F43370091EFC2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FDB2A4F43370091EFC2 /* WelcomeViewController.swift */; };
 		585C6FE12A4F43380091EFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585C6FE02A4F43380091EFC2 /* Assets.xcassets */; };
-		585C6FE42A4F43380091EFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585C6FE22A4F43380091EFC2 /* LaunchScreen.storyboard */; };
+		585C6FEC2A4F43C50091EFC2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FEB2A4F43C50091EFC2 /* Constants.swift */; };
+		585C6FEE2A51F46B0091EFC2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FED2A51F46B0091EFC2 /* LogInViewController.swift */; };
+		585C6FF02A51FA0E0091EFC2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FEF2A51FA0E0091EFC2 /* SignUpViewController.swift */; };
+		585C6FF52A54E1AB0091EFC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 585C6FF42A54E1AB0091EFC2 /* GoogleService-Info.plist */; };
+		585C6FF72A5702170091EFC2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C6FF62A5702170091EFC2 /* TabBarController.swift */; };
+		5863549B2A79822100B72217 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863549A2A79822100B72217 /* AboutViewController.swift */; };
+		5863549D2A798A0800B72217 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863549C2A798A0800B72217 /* SupportViewController.swift */; };
+		5863549F2A798C0600B72217 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863549E2A798C0600B72217 /* PasswordViewController.swift */; };
+		586354A12A7ADE6D00B72217 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586354A02A7ADE6D00B72217 /* CalculatorViewController.swift */; };
+		586489B92A8D062D00ED4C10 /* SheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586489B82A8D062D00ED4C10 /* SheetViewController.swift */; };
+		587469382A682B0700F59568 /* InitialCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587469372A682B0700F59568 /* InitialCalculatorViewController.swift */; };
+		5874693A2A682B3100F59568 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587469392A682B3100F59568 /* SearchViewController.swift */; };
+		5875F5BD2A5D818F0059BE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585C6FDD2A4F43370091EFC2 /* Main.storyboard */; };
+		5875F5BF2A60485C0059BE0D /* ConsumedProtein.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875F5BE2A60485C0059BE0D /* ConsumedProtein.swift */; };
+		5875F5C12A6599BB0059BE0D /* FoodFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5875F5C02A6599BB0059BE0D /* FoodFinder.swift */; };
+		588D03402A58672500F3B72E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D033F2A58672500F3B72E /* ProfileViewController.swift */; };
+		588D03432A586A9400F3B72E /* SystemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D03412A586A9400F3B72E /* SystemCell.swift */; };
+		588D03442A586A9400F3B72E /* SystemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588D03422A586A9400F3B72E /* SystemCell.xib */; };
+		588D03462A5A266800F3B72E /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D03452A5A266800F3B72E /* FoodViewController.swift */; };
+		588D03492A5A2E9000F3B72E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D03472A5A2E9000F3B72E /* FoodCell.swift */; };
+		588D034A2A5A2E9000F3B72E /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 588D03482A5A2E9000F3B72E /* FoodCell.xib */; };
+		588D034C2A5A38E000F3B72E /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588D034B2A5A38E000F3B72E /* StatsViewController.swift */; };
+		58AC84A62A93B7A500B113E5 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC84A52A93B7A500B113E5 /* Measure.swift */; };
+		58B8AB442A5AE13000171394 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B8AB432A5AE13000171394 /* Food.swift */; };
+		58B8AB462A5AE25A00171394 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B8AB452A5AE25A00171394 /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5815B2E12A817D0600FD0099 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		582DFE212A5AFAC300203FF1 /* LogOutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutCell.swift; sourceTree = "<group>"; };
+		582DFE222A5AFAC300203FF1 /* LogOutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogOutCell.xib; sourceTree = "<group>"; };
+		582DFE272A5B350A00203FF1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5830D49A2A7327EF00D25207 /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		5830D49E2A73421A00D25207 /* BarChartUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartUI.swift; sourceTree = "<group>"; };
+		583E80C72A6B1CFA0078A737 /* SelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorViewController.swift; sourceTree = "<group>"; };
 		585C6FD42A4F43370091EFC2 /* MyProteinBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProteinBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		585C6FD72A4F43370091EFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		585C6FD92A4F43370091EFC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		585C6FDB2A4F43370091EFC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		585C6FDB2A4F43370091EFC2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		585C6FDE2A4F43370091EFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		585C6FE02A4F43380091EFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		585C6FE32A4F43380091EFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		585C6FE52A4F43380091EFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585C6FEB2A4F43C50091EFC2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		585C6FED2A51F46B0091EFC2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		585C6FEF2A51FA0E0091EFC2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		585C6FF42A54E1AB0091EFC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		585C6FF62A5702170091EFC2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5863549A2A79822100B72217 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		5863549C2A798A0800B72217 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		5863549E2A798C0600B72217 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		586354A02A7ADE6D00B72217 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		586489B82A8D062D00ED4C10 /* SheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetViewController.swift; sourceTree = "<group>"; };
+		587469372A682B0700F59568 /* InitialCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCalculatorViewController.swift; sourceTree = "<group>"; };
+		587469392A682B3100F59568 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5875F5BE2A60485C0059BE0D /* ConsumedProtein.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumedProtein.swift; sourceTree = "<group>"; };
+		5875F5C02A6599BB0059BE0D /* FoodFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinder.swift; sourceTree = "<group>"; };
+		588D033F2A58672500F3B72E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		588D03412A586A9400F3B72E /* SystemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemCell.swift; sourceTree = "<group>"; };
+		588D03422A586A9400F3B72E /* SystemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SystemCell.xib; sourceTree = "<group>"; };
+		588D03452A5A266800F3B72E /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		588D03472A5A2E9000F3B72E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		588D03482A5A2E9000F3B72E /* FoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		588D034B2A5A38E000F3B72E /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		58AC84A52A93B7A500B113E5 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
+		58B8AB432A5AE13000171394 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		58B8AB452A5AE25A00171394 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		7DCDF3800833BE2205C28E3E /* Pods_MyProteinBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyProteinBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C766849FD74F63D7ACCCFE16 /* Pods-MyProteinBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProteinBuddy.release.xcconfig"; path = "Target Support Files/Pods-MyProteinBuddy/Pods-MyProteinBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		DFBE7748AC03AB5A927F5F6B /* Pods-MyProteinBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProteinBuddy.debug.xcconfig"; path = "Target Support Files/Pods-MyProteinBuddy/Pods-MyProteinBuddy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +95,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				285EABBBA2A6A3ABC19F12D4 /* Pods_MyProteinBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5815B2E32A817D5100FD0099 /* Food Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				587469392A682B3100F59568 /* SearchViewController.swift */,
+				5815B2E12A817D0600FD0099 /* ResultViewController.swift */,
+				586489B82A8D062D00ED4C10 /* SheetViewController.swift */,
+			);
+			path = "Food Controllers";
+			sourceTree = "<group>";
+		};
+		5830D4972A707A8500D25207 /* Main Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				588D03452A5A266800F3B72E /* FoodViewController.swift */,
+				5815B2E32A817D5100FD0099 /* Food Controllers */,
+				588D034B2A5A38E000F3B72E /* StatsViewController.swift */,
+				588D033F2A58672500F3B72E /* ProfileViewController.swift */,
+				586354992A7981FE00B72217 /* Profile Controllers */,
+			);
+			path = "Main Controllers";
+			sourceTree = "<group>";
+		};
+		5830D4982A707A9C00D25207 /* Sign Up Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				587469372A682B0700F59568 /* InitialCalculatorViewController.swift */,
+				583E80C72A6B1CFA0078A737 /* SelectorViewController.swift */,
+			);
+			path = "Sign Up Controllers";
+			sourceTree = "<group>";
+		};
+		5830D4992A707AB900D25207 /* Flow Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				585C6FDB2A4F43370091EFC2 /* WelcomeViewController.swift */,
+				585C6FED2A51F46B0091EFC2 /* LogInViewController.swift */,
+				585C6FEF2A51FA0E0091EFC2 /* SignUpViewController.swift */,
+				5863549E2A798C0600B72217 /* PasswordViewController.swift */,
+			);
+			path = "Flow Controllers";
+			sourceTree = "<group>";
+		};
 		585C6FCB2A4F43370091EFC2 = {
 			isa = PBXGroup;
 			children = (
 				585C6FD62A4F43370091EFC2 /* MyProteinBuddy */,
 				585C6FD52A4F43370091EFC2 /* Products */,
+				D38CC6299F6849B6DD4C1189 /* Pods */,
+				97166103801A6AD8EA4939F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +167,82 @@
 			children = (
 				585C6FD72A4F43370091EFC2 /* AppDelegate.swift */,
 				585C6FD92A4F43370091EFC2 /* SceneDelegate.swift */,
-				585C6FDB2A4F43370091EFC2 /* ViewController.swift */,
-				585C6FDD2A4F43370091EFC2 /* Main.storyboard */,
+				585C6FF32A51FAA80091EFC2 /* Model */,
+				585C6FF22A51FAA20091EFC2 /* View */,
+				585C6FF12A51FA8B0091EFC2 /* Controllers */,
+				585C6FEB2A4F43C50091EFC2 /* Constants.swift */,
 				585C6FE02A4F43380091EFC2 /* Assets.xcassets */,
-				585C6FE22A4F43380091EFC2 /* LaunchScreen.storyboard */,
 				585C6FE52A4F43380091EFC2 /* Info.plist */,
+				585C6FF42A54E1AB0091EFC2 /* GoogleService-Info.plist */,
+				582DFE272A5B350A00203FF1 /* LaunchScreen.storyboard */,
 			);
 			path = MyProteinBuddy;
+			sourceTree = "<group>";
+		};
+		585C6FF12A51FA8B0091EFC2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5830D4992A707AB900D25207 /* Flow Controllers */,
+				5830D4982A707A9C00D25207 /* Sign Up Controllers */,
+				5830D4972A707A8500D25207 /* Main Controllers */,
+				585C6FF62A5702170091EFC2 /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		585C6FF22A51FAA20091EFC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				585C6FDD2A4F43370091EFC2 /* Main.storyboard */,
+				588D03412A586A9400F3B72E /* SystemCell.swift */,
+				588D03422A586A9400F3B72E /* SystemCell.xib */,
+				588D03472A5A2E9000F3B72E /* FoodCell.swift */,
+				588D03482A5A2E9000F3B72E /* FoodCell.xib */,
+				582DFE212A5AFAC300203FF1 /* LogOutCell.swift */,
+				582DFE222A5AFAC300203FF1 /* LogOutCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		585C6FF32A51FAA80091EFC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58B8AB432A5AE13000171394 /* Food.swift */,
+				58AC84A52A93B7A500B113E5 /* Measure.swift */,
+				58B8AB452A5AE25A00171394 /* Setting.swift */,
+				5875F5BE2A60485C0059BE0D /* ConsumedProtein.swift */,
+				5875F5C02A6599BB0059BE0D /* FoodFinder.swift */,
+				5830D49A2A7327EF00D25207 /* ChartData.swift */,
+				5830D49E2A73421A00D25207 /* BarChartUI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		586354992A7981FE00B72217 /* Profile Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5863549A2A79822100B72217 /* AboutViewController.swift */,
+				5863549C2A798A0800B72217 /* SupportViewController.swift */,
+				586354A02A7ADE6D00B72217 /* CalculatorViewController.swift */,
+			);
+			path = "Profile Controllers";
+			sourceTree = "<group>";
+		};
+		97166103801A6AD8EA4939F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCDF3800833BE2205C28E3E /* Pods_MyProteinBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D38CC6299F6849B6DD4C1189 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE7748AC03AB5A927F5F6B /* Pods-MyProteinBuddy.debug.xcconfig */,
+				C766849FD74F63D7ACCCFE16 /* Pods-MyProteinBuddy.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 585C6FE82A4F43380091EFC2 /* Build configuration list for PBXNativeTarget "MyProteinBuddy" */;
 			buildPhases = (
+				875C67AEE6EABBE8D7B1DFD6 /* [CP] Check Pods Manifest.lock */,
 				585C6FD02A4F43370091EFC2 /* Sources */,
 				585C6FD12A4F43370091EFC2 /* Frameworks */,
 				585C6FD22A4F43370091EFC2 /* Resources */,
+				3869B453D82B6318328E4F20 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +305,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585C6FE42A4F43380091EFC2 /* LaunchScreen.storyboard in Resources */,
+				5875F5BD2A5D818F0059BE0D /* Main.storyboard in Resources */,
+				588D03442A586A9400F3B72E /* SystemCell.xib in Resources */,
 				585C6FE12A4F43380091EFC2 /* Assets.xcassets in Resources */,
-				585C6FDF2A4F43370091EFC2 /* Main.storyboard in Resources */,
+				582DFE242A5AFAC300203FF1 /* LogOutCell.xib in Resources */,
+				588D034A2A5A2E9000F3B72E /* FoodCell.xib in Resources */,
+				585C6FF52A54E1AB0091EFC2 /* GoogleService-Info.plist in Resources */,
+				582DFE282A5B350A00203FF1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3869B453D82B6318328E4F20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyProteinBuddy/Pods-MyProteinBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyProteinBuddy/Pods-MyProteinBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyProteinBuddy/Pods-MyProteinBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875C67AEE6EABBE8D7B1DFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyProteinBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		585C6FD02A4F43370091EFC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				585C6FDC2A4F43370091EFC2 /* ViewController.swift in Sources */,
+				585C6FF02A51FA0E0091EFC2 /* SignUpViewController.swift in Sources */,
+				58AC84A62A93B7A500B113E5 /* Measure.swift in Sources */,
+				585C6FDC2A4F43370091EFC2 /* WelcomeViewController.swift in Sources */,
+				5863549D2A798A0800B72217 /* SupportViewController.swift in Sources */,
 				585C6FD82A4F43370091EFC2 /* AppDelegate.swift in Sources */,
+				586489B92A8D062D00ED4C10 /* SheetViewController.swift in Sources */,
+				5830D49F2A73421A00D25207 /* BarChartUI.swift in Sources */,
+				588D03432A586A9400F3B72E /* SystemCell.swift in Sources */,
+				5830D49B2A7327EF00D25207 /* ChartData.swift in Sources */,
+				5874693A2A682B3100F59568 /* SearchViewController.swift in Sources */,
+				58B8AB462A5AE25A00171394 /* Setting.swift in Sources */,
 				585C6FDA2A4F43370091EFC2 /* SceneDelegate.swift in Sources */,
+				586354A12A7ADE6D00B72217 /* CalculatorViewController.swift in Sources */,
+				585C6FF72A5702170091EFC2 /* TabBarController.swift in Sources */,
+				587469382A682B0700F59568 /* InitialCalculatorViewController.swift in Sources */,
+				588D03462A5A266800F3B72E /* FoodViewController.swift in Sources */,
+				585C6FEE2A51F46B0091EFC2 /* LogInViewController.swift in Sources */,
+				582DFE232A5AFAC300203FF1 /* LogOutCell.swift in Sources */,
+				5815B2E22A817D0600FD0099 /* ResultViewController.swift in Sources */,
+				588D03492A5A2E9000F3B72E /* FoodCell.swift in Sources */,
+				5863549F2A798C0600B72217 /* PasswordViewController.swift in Sources */,
+				5875F5BF2A60485C0059BE0D /* ConsumedProtein.swift in Sources */,
+				588D03402A58672500F3B72E /* ProfileViewController.swift in Sources */,
+				58B8AB442A5AE13000171394 /* Food.swift in Sources */,
+				5875F5C12A6599BB0059BE0D /* FoodFinder.swift in Sources */,
+				588D034C2A5A38E000F3B72E /* StatsViewController.swift in Sources */,
+				585C6FEC2A4F43C50091EFC2 /* Constants.swift in Sources */,
+				583E80C82A6B1CFA0078A737 /* SelectorViewController.swift in Sources */,
+				5863549B2A79822100B72217 /* AboutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,14 +405,6 @@
 				585C6FDE2A4F43370091EFC2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		585C6FE22A4F43380091EFC2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				585C6FE32A4F43380091EFC2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +526,7 @@
 		};
 		585C6FE92A4F43380091EFC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE7748AC03AB5A927F5F6B /* Pods-MyProteinBuddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +535,13 @@
 				DEVELOPMENT_TEAM = 4CMVBFM2BQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyProteinBuddy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyProteinBuddy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +557,7 @@
 		};
 		585C6FEA2A4F43380091EFC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C766849FD74F63D7ACCCFE16 /* Pods-MyProteinBuddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +566,13 @@
 				DEVELOPMENT_TEAM = 4CMVBFM2BQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyProteinBuddy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyProteinBuddy;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
